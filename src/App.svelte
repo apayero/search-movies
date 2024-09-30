@@ -1,11 +1,13 @@
 <script>
   import Counter from "./Counter.svelte";
+  import InputNuevo from "./InputNuevo.svelte"
+  
 </script>
-
-<Counter />
-<Counter />
-<Counter />
-<span>Tenemos counters aquí</span>
+ 
+<InputNuevo />
+<InputNuevo  nombre="Apellido"/>
+<InputNuevo  nombre="Teléfono"/>
+<InputNuevo  nombre="Dirección"/>
 
 <style>
   span {
